@@ -25,7 +25,20 @@
     <a href="index.html">HOME</a>
     <h2>How to copy by value a composite datatype (array+objects)?</h2>
     <p>
-        
+        <b>By using spread operator (...)</b>
+        <p>console!</p>
     </p>
+    <script>
+        const person = {
+            firstname : "rahul",
+            lastname : "reddy"
+        }
+
+        let p1 = {
+            ...person
+        }
+
+        console.log(p1)
+    </script>
 </body>
 </html>
